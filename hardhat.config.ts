@@ -24,16 +24,16 @@ const config: HardhatUserConfig = {
         network:"mantle",
         chainId:5000,
         urls:{
-          apiURL:`${process.env.MATLE_MAINNET_EXPLORER}api`,
-          browserURL:process.env.MATLE_MAINNET_EXPLORER!
+          apiURL:`${process.env.MANTLE_MAINNET_EXPLORER}api`,
+          browserURL:process.env.MANTLE_MAINNET_EXPLORER!
         }
       },
       {
         network:"mantleTestnet",
         chainId:5001,
         urls:{
-          apiURL:`${process.env.MATLE_TESTNET_EXPLORER}api`,
-          browserURL:process.env.MATLE_TESTNET_EXPLORER!
+          apiURL:`${process.env.MANTLE_TESTNET_EXPLORER}api`,
+          browserURL:process.env.MANTLE_TESTNET_EXPLORER!
         }
       }
     ]

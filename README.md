@@ -27,7 +27,7 @@ You have [Node.js](https://nodejs.org/en/) running on your computer, as well as 
 
 4. Edit the .env file to set the deployment parameters:
 
-   - `PRIVATE_KEY`: the hex private key for an account that has enough ETH for the deployment.
+   - `PRIVATE_KEY`: the hex private key for an account that has enough MNT for the deployment.
    - `ETHERSCAN_API_KEY`: Etherscan api key, you may retrieve from [here](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics).
 
 ## How It Works?
